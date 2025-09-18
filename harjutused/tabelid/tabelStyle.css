@@ -1,0 +1,46 @@
+
+/********************table id=lihtne*************/
+#lihtne{
+    width: 60%;
+    border: 1px solid black;
+    height: 200px;
+    border-collapse: collapse; /*üks joon border'is*/
+}
+#lihtne td{
+    border: 1px solid black;
+    text-align: center;
+}
+/*pseudostiilide kasutamine*/
+#lihtne tr:nth-child(1) td:nth-child(1){ /*1.rida 1.lahter*/
+    background-color: red;
+}
+#lihtne tr:nth-child(1) td:nth-child(2){ /*1.rida 2.lahter*/
+    background-color: rosybrown;
+}
+#lihtne tr:nth-child(2) td:nth-child(1){ /*2.rida 1.lahter*/
+    background-color: mistyrose;
+}
+#lihtne tr:nth-child(2) td:nth-child(2){ /*2.rida 2.lahter*/
+    background-color: lightpink;
+}
+/********************table id=keeruline1*************/
+#keeruline1{
+    width: 40%;
+    border: 1px solid black;
+    height: 150px;
+    border-collapse: collapse; /*üks joon border'is*/
+}
+#keeruline1 td{
+    border: 1px solid black;
+    text-align: center;
+}
+#keeruline2{
+    width: 40%;
+    border: 1px solid black;
+    height: 150px;
+    border-collapse: collapse; /*üks joon border'is*/
+}
+#keeruline2 td{
+    border: 1px solid black;
+    text-align: center;
+}

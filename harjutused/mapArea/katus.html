@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <title>Pildikaart map/area kasutamine</title>
+    <link rel="stylesheet" href="majaStyle.css">
+</head>
+<body>
+<!--https://meet.google.com/czi-muip-wmm-->
+<h1> Maja pildikaart</h1>
+<h3> Hiire klik on akna, seina, katuse peale </h3>
+<img src="majake.png" alt="Ilus majake" usemap="#maja">
+<map name="maja">
+    <!--aken- ring coords (x, y, R)-->
+    <area shape="circle" coords="146,183,30" href="aken.html" alt="Aken">
+    <!--sein - rect coords (x, y, x1, y2)-->
+    <area shape="rect" coords="88,134,185,239" href="sein.html" alt="sein">
+    <!--katus -polügoon - poly coords (kõik koordinaadid vasakult paremale)-->
+    <area shape="poly" coords="40,138,141,52,233,52" href="katus.html" alt="katus">
+</map>
+<div id="ala">
+
+    Katus on ehitise ülemine osa, mis koosneb eri materjalidest ja konstruktsioonilistest elementidest ning toetub ehitise seintele ja tugedele. Katuse peamine ülesanne on kaitsta ehitist vihma, lume, päikse, temperatuuri ja tuule eest.
+</div>
+<a href="../../tood.html">Tagasi tehtud tööde juurde</a>
+
+</body>
+</html>

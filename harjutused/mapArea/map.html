@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <title>Pildikaart map/area kasutamine</title>
+    <link rel="stylesheet" href="majaStyle.css">
+</head>
+<body>
+<!--https://meet.google.com/czi-muip-wmm-->
+<h1> Maja pildikaart</h1>
+<img src="majake.png" alt="Ilus majake" usemap="#maja">
+<map name="maja">
+    <!--aken- ring coords (x, y, R)-->
+    <area shape="circle" coords="146, 183, 30" href="aken.html" alt="Aken">
+    <!--sein - rect coords (x, y, x1, y2)-->
+    <area shape="rect" coords="88, 134, 185, 239" href="sein.html" alt="sein">
+    <!--katus -polügoon - poly coords (kõik koordinaadid vasakult paremale)-->
+    <area shape="poly" coords="40, 138, 141, 52, 233, 52" href="katus.html" alt="katus">
+</map>
+<div id="ala">
+    siia tuleb vastav info...
+</div>
+
+</body>
+</html>
